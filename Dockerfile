@@ -1,7 +1,7 @@
 FROM node:slim
 MAINTAINER erikreed
 
-RUN npm install -g httpserver
+RUN npm install -g httpserver && npm cache clear
 
 VOLUME /www
 EXPOSE 80
