@@ -2,7 +2,7 @@
 
 A tiny docker container to serve static files via npm's [httpserver](https://www.npmjs.com/package/http-server).
 
-```
+```bash
 # build
 docker build -t httpserver .
 # or pull
